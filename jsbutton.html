@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> JAVASCRIPT BUTTON FUNCTION </title>
+</head>
+
+<style>
+
+    div {
+        margin-top: 40%;
+    }
+
+</style>
+<script>
+
+    function ChangeTitle() {
+        document.getElementById("changetitle").innerHTML = "JAVASCRIPT BUTTON FUNCTION EVENT";
+    }
+    function ChangeText() {
+        document.getElementById("changetext").innerHTML = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ";
+    }
+    
+</script>
+<body>
+
+    <form>
+
+        <center>
+
+            <h1 id = "changetitle"> JAVASCRIPT BUTTON EVENT </h1>
+
+            <p id = "changetext"> Abandon Hope All Ye Who Enter Here </p>
+
+            <div>
+
+                <input type = "button" value = "RED" onclick= "document.bgColor =  'red'">
+                <input type = "button" value = "ORANGE" onclick= "document.bgColor =  'orange'">
+                <input type = "button" value = "YELLOW" onclick= "document.bgColor =  'yellow'">
+                <input type = "button" value = "GREEN" onclick= "document.bgColor =  'green'">
+                <input type = "button" value = "BLUE" onclick= "document.bgColor =  'blue'">
+                <input type = "button" value = "INDIGO" onclick= "document.bgColor =  'indigo'">
+                <input type = "button" value = "VIOLET" onclick= "document.bgColor =  'violet'">
+    
+                <button type ="button" onclick="ChangeTitle()">CHANGE TITLE</button>
+                <button type ="button" onclick="ChangeText()">CHANGE TEXT</button>
+
+            </div>
+
+        </center>
+
+    </form>
+
+</body>
+</html>
