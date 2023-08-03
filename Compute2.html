@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Area of Circle </title>
+    </head>
+    <body>
+
+        <h2 id="Square"></h2>
+        <script>
+            var a = 14
+            var SquareA = a**2
+            document.getElementById("Square").innerHTML = 
+            "Area of Square: " + SquareA
+        </script>
+
+        <h2 id="Circle"></h2>
+        <script>
+            var pie = 3.14
+            var r = 8
+            var areacircle = pie *(r**2)
+            document.getElementById("Circle").innerHTML = "Area of Circle: " + areacircle
+        </script>
+
+        <h2 id="Circum of Circle"></h2>
+        <script>
+            var a = 13.5
+            var pie = 3.14
+            var circum = 2 * pie * a
+            
+            document.getElementById("Circum of Circle").innerHTML = "Circumference of a Circle: " + circum
+        </script>
+
+        <h2 id="Pythagorean"></h2>
+        <script>
+            var a = 21
+            var b = 14
+            document.getElementById("Pythagorean").innerHTML = "Pythagorean: " + (Math.sqrt(a**2 + b**2))
+        </script>
+
+    </body>
+    </body>
+</html>
